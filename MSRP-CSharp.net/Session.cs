@@ -94,7 +94,7 @@ namespace MSRP
         /// An active message indication will be sent when appropriate.
         /// </summary>
         /// <param name="contentType">the type of message being composed.</param>
-        public void setActive(String contentType)
+        public void SetActive(String contentType)
         {
             SetActive(contentType, 120);
         }
