@@ -3,6 +3,5 @@ D:\My Documents\Visual Studio 2012\Projects\MSRP-CSharp.net\MSRP-CSharp.net\bin\
 D:\My Documents\Visual Studio 2012\Projects\MSRP-CSharp.net\MSRP-CSharp.net\bin\Release\MSRP-CSharp.pdb
 D:\My Documents\Visual Studio 2012\Projects\MSRP-CSharp.net\MSRP-CSharp.net\bin\Release\log4net.dll
 D:\My Documents\Visual Studio 2012\Projects\MSRP-CSharp.net\MSRP-CSharp.net\bin\Release\log4net.xml
-D:\My Documents\Visual Studio 2012\Projects\MSRP-CSharp.net\MSRP-CSharp.net\obj\Release\MSRP-CSharp.net.csprojResolveAssemblyReference.cache
 D:\My Documents\Visual Studio 2012\Projects\MSRP-CSharp.net\MSRP-CSharp.net\obj\Release\MSRP-CSharp.dll
 D:\My Documents\Visual Studio 2012\Projects\MSRP-CSharp.net\MSRP-CSharp.net\obj\Release\MSRP-CSharp.pdb

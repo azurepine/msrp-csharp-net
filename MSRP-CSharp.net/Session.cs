@@ -94,7 +94,7 @@ namespace MSRP
         /// An active message indication will be sent when appropriate.
         /// </summary>
         /// <param name="contentType">the type of message being composed.</param>
-        public void SetActive(String contentType)
+        public void SetActive(string contentType)
         {
             SetActive(contentType, 120);
         }
@@ -122,7 +122,7 @@ namespace MSRP
                 if (refresh < 60) { refresh = 60; } // SHOULD not be allowed
 
                 _activeEnd = _lastActive.AddSeconds(refresh);
-                new OutgoingStatusMessage(this, ImState, _composeContentType, refresh);
+                SendMessage(new OutgoingStatusMessage(this, MSRP.ImState.active, _composeContentType, refresh));
             }
         }
 
@@ -135,7 +135,7 @@ namespace MSRP
             if (_isComposing == ImState.active)
             {
                 EndComposing();
-                new OutgoingStatusMessage(this, MSRP.ImState.idle, string.Empty, 0);
+                SendMessage(new OutgoingStatusMessage(this, MSRP.ImState.idle, string.Empty, 0));
             }
         }
 
